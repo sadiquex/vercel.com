@@ -15,18 +15,20 @@ export default function App() {
 
       <div className="pt-12 sm:pt-24">
         <Hero />
-        <DevelopSection />
-        <div className="py4 container border-[0.01px] border-[#454545]">
-          &nbsp;
+        <div className="px-2">
+          <DevelopSection />
+          <div className="py4 container border-[0.01px] border-[#454545]">
+            &nbsp;
+          </div>{" "}
+          <Features />
+          <Analytics />
+          <SecondFeatures />
+          <ScaleSection />
+          <div className="py4 container border-[0.01px] border-[#454545]">
+            &nbsp;
+          </div>
+          <ReadyToDeploy />
         </div>
-        <Features />
-        <Analytics />
-        <SecondFeatures />
-        <ScaleSection />
-        <div className="py4 container border-[0.01px] border-[#454545]">
-          &nbsp;
-        </div>
-        <ReadyToDeploy />
         <Footer />
       </div>
     </div>

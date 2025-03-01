@@ -4,7 +4,7 @@ export default function SecondFeatures() {
   return (
     <div className="container grid border-[0.01px] border-[#454545] p-0 sm:grid-cols-2">
       {/* left side */}
-      <div className="flex flex-col gap-8 border-[0.01px] border-[#454545] p-8">
+      <div className="flex w-full flex-col gap-8 border-[0.01px] border-[#454545] p-2 sm:p-0 sm:py-0">
         <div className="space-y-4">
           <p className="flex items-center gap-2 text-gray-600">
             <LoaderCircle size={24} />
@@ -19,16 +19,16 @@ export default function SecondFeatures() {
           </h3>
         </div>
         {/* image */}
-        <div className="h-[333px] w-[443px]">
+        <div className="h-[333px] w-full sm:w-[443px]">
           <img
             src="/features/instant-rollbacks.png"
             alt="Instant rollbacks"
-            className="h-full w-full"
+            className="h-full w-full object-cover"
           />
         </div>
       </div>
       {/* right side */}
-      <div className="flex flex-col gap-8 border-[0.01px] border-[#454545] p-8">
+      <div className="flex flex-col gap-8 border-[0.01px] border-[#454545] p-2 sm:p-8">
         <div className="space-y-4">
           <p className="flex items-center gap-2 text-gray-600">
             <Backpack size={24} />
@@ -46,13 +46,13 @@ export default function SecondFeatures() {
           </div>
         </div>
         {/* image */}
-        <div className="h-[333px] w-[443px] bg-red-200">
+        <figure className="h-[333px] w-full bg-red-200 sm:w-[443px]">
           <img
             src="/features/conformance.png"
             alt="Conformance"
-            className="h-full w-full"
+            className="h-full w-full object-cover"
           />
-        </div>
+        </figure>
       </div>
     </div>
   );

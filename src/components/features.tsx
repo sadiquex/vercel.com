@@ -4,7 +4,7 @@ export default function Features() {
   return (
     <div className="container grid border-[0.01px] border-[#454545] p-0 sm:grid-cols-2">
       {/* left side */}
-      <div className="flex flex-col gap-8 border-[0.01px] border-[#454545] p-8">
+      <div className="flex w-full flex-col gap-8 border-[0.01px] border-[#454545] p-8">
         <div className="space-y-4">
           <p className="flex items-center gap-2 text-gray-600">
             <Terminal size={24} />
@@ -18,7 +18,7 @@ export default function Features() {
           </h3>
         </div>
         {/* image */}
-        <div className="h-[333px] w-[443px]">
+        <div className="h-[333px] w-full sm:w-[443px]">
           <img
             src="/features/terminal.png"
             alt="Terminal"
@@ -45,7 +45,7 @@ export default function Features() {
           </div>
         </div>
         {/* image */}
-        <div className="h-[301px] w-[443px]">
+        <div className="h-[301px] w-full sm:w-[443px]">
           <img
             src="/features/chat.png"
             alt="Terminal"

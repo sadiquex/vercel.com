@@ -43,7 +43,7 @@ export default function Hero() {
         </div>
         <img
           src="/vercel-icon-light.svg"
-          className="z-50 h-[208px] w-[178px]"
+          className="z-10 h-[208px] w-[178px]"
         />
       </div>
     </div>
