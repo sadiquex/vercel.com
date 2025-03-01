@@ -21,7 +21,7 @@ export function ProductsHoverCard() {
           <div className="flex flex-col gap-4">
             <p className="text-gray-600">DX Platform</p>
 
-            {[1, 2].map((item, i) => (
+            {[1, 2].map((_item, i) => (
               <div key={i} className="flex items-center gap-2">
                 <div className="rounded-md border p-1">
                   <Settings size={18} />
@@ -40,7 +40,7 @@ export function ProductsHoverCard() {
           <div className="flex flex-col gap-4">
             <p className="text-gray-600">Managed Infrastructure</p>
 
-            {[1, 2, 3, 4].map((item, i) => (
+            {[1, 2, 3, 4].map((_item, i) => (
               <div key={i} className="flex items-center gap-2">
                 <div className="rounded-md border p-1">
                   <Settings size={18} />
@@ -59,7 +59,7 @@ export function ProductsHoverCard() {
           <div className="flex flex-col gap-4">
             <p className="text-gray-600">DX Platform</p>
 
-            {[1, 2, 3].map((item, i) => (
+            {[1, 2, 3].map((_item, i) => (
               <div key={i} className="flex items-center gap-2">
                 <div className="rounded-md border p-1">
                   <Settings size={18} />
@@ -94,7 +94,7 @@ export function SolutionsHoverCard() {
           <div className="flex flex-col gap-4">
             <p className="text-gray-600">Use cases</p>
 
-            {[1, 2, 3, 4, 5].map((item, i) => (
+            {[1, 2, 3, 4, 5].map((_item, i) => (
               <div key={i} className="flex items-center gap-2">
                 <div className="rounded-md border p-1">
                   <Settings size={18} />
@@ -113,7 +113,7 @@ export function SolutionsHoverCard() {
           <div className="flex flex-col gap-4">
             <p className="text-gray-600">Users</p>
 
-            {[1, 2].map((item, i) => (
+            {[1, 2].map((_item, i) => (
               <div key={i} className="flex items-center gap-2">
                 <div className="rounded-md border p-1">
                   <Settings size={18} />
@@ -148,7 +148,7 @@ export function ResourcesHoverCard() {
           <div className="flex flex-col gap-4">
             <p className="text-gray-600">Tools</p>
 
-            {[1, 2, 3, 4, 5].map((item, i) => (
+            {[1, 2, 3, 4, 5].map((_item, i) => (
               <div key={i} className="flex items-center gap-2">
                 <div className="rounded-md border p-1">
                   <Settings size={18} />
@@ -167,7 +167,7 @@ export function ResourcesHoverCard() {
           <div className="flex flex-col gap-4">
             <p className="text-gray-600">Company</p>
 
-            {[1, 2, 3, 4].map((item, i) => (
+            {[1, 2, 3, 4].map((_item, i) => (
               <div key={i} className="flex items-center gap-2">
                 <div className="rounded-md border p-1">
                   <Settings size={18} />
